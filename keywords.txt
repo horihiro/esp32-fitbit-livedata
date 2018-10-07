@@ -1,0 +1,6 @@
+esp32-fitbit-livedata	KEYWORD1
+LiveData	KEYWORD1
+init	KEYWORD2
+scan	KEYWORD2
+connect	KEYWORD2
+isConnected	KEYWORD2

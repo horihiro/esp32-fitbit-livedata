@@ -1,0 +1,26 @@
+{
+  "name": "esp32-fitbit-livedata",
+  "version": "0.0.1",
+  "keywords": "esp32, FitBit, Live Data, BLE",
+  "description": "Receiver Live Data of Fitbit Tracker for esp32",
+  "repository":
+  {
+    "type": "git",
+    "url": "esp32-fitbit-livedata"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies":
+  [
+    {
+      "name": "CRC32"
+    },
+    {
+      "name": "Json Streaming Parser"
+    },
+    {
+      "name": "ESP32 BLE Arduino",
+      "version": "https://github.com/nkolban/ESP32_BLE_Arduino.git#0.4.16"
+    }
+  ]
+}
